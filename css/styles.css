@@ -19,7 +19,7 @@ h1 {
 	color: white;
 	text-align: center;
 	margin: 0;
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 nav {
@@ -30,9 +30,14 @@ nav {
 	justify-content: center;
 }
 
+ul {
+	padding-left: 0;
+}
+
 li {
 	display: inline-flex;
-	margin: 20px;
+	margin: 50px;
+	font-size: 1.5em;
 }
 
 a {
