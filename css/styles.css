@@ -1,3 +1,55 @@
 body {
 	font-family: sans-serif;
+	margin: 0;
+}
+
+.container {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+header {
+	background-image: url('http://i.dailymail.co.uk/i/pix/2016/04/15/13/2591F30000000578-3541631-image-a-4_1460721669000.jpg');
+	background-attachment: fixed;
+	height: 300px;
+}
+
+/* Ajustar imagen al ancho de pagina
+
+background-size: 100%; */
+
+h1 {
+	font-size: 6em;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top: 80px;
+}
+
+nav {
+	display: flex;
+	height: 40px;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	display: inline-flex;
+	margin: 50px;
+	font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	color: grey;
 }

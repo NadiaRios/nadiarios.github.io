@@ -3,8 +3,88 @@
 <head>
 	<meta charset="utf-8">
 	<title>Nadia Rios - Diseñadora Web</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+	<header>
+		<h1>NADIA RIOS</h1>
+	</header>
+	<nav>
+		<ul class="links">
+			<li><a href="#Info" id="boton1">Info</a></li>
+			<li><a href="#Servicios" id="boton2">Servicios</a></li>
+			<li><a href="#Proyectos" id="boton3">Proyectos</a></li>
+			<li><a href="#Contacto" id="boton4">Contacto</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+	<section id="Info">
+			<br>	
+			<h2>Info</h2>
+			<article><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+	</section>
+	<br>	
+	<section id="Servicios">
+		<h2>Servicios</h2>
+		<article><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+	</section>
+	<br>
+	<section id="Proyectos">
+		<h2>Proyectos</h2>
+			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
+			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
+			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
+			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
+			<br>
+	</section>
+	<br>
+	<section id="Contacto">
+		<h2>Contacto</h2>
+		<form action="" method="post">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre">
+				<label for="apellido">Apellido</label>
+				<input type="text" id="apellido">
+				<label for="email">E-mail</label>
+				<input type="text" id="email">
+				<br>
+				<br>
+				<legend>¿Qué información querés recibir?</legend>
+				<label for="cotizacion">Cotización</label>
+				<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">
+				<label for="promociones">Promociones</label>
+				<input type="checkbox" name="promociones" id="promociones" value="promociones">
+				<label for="novedades">Novedades</label>
+				<input type="checkbox" name="novedades" id="novedades" value="novedades">
+				<br>
+				<br>
+				<legend>¿Cómo conociste esta página?</legend>
+				<label for="google">Google</label>
+				<input type="radio" name="how" value="google">
+				<label for="facebook">Facebook</label>
+				<input type="radio" name="how" value="facebook">
+				<label for="otros">Otros</label>
+				<input type="radio" name="how" value="otros">
+				<br>
+				<br>
+				<legend>Comentarios Adicionales</legend>
+				<textarea name="comentarios" id="comentarios" cols="100" rows="10" placeholder="Dejá tu comentario aquí"></textarea><br>
+				<input type="button" value="Enviar">
+			</fieldset>
+		</form>
+	</section>
+	<br>
+	<hr>
+	<footer>
+			<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+	<br>
+	<hr>
+	</footer>
+	</div>
 </body>
 </html>
