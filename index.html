@@ -1,90 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Nadia Rios - Diseñadora Web</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Nadia Rios - Diseñadora Web</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<header>
-		<h1>NADIA RIOS</h1>
-	</header>
-	<nav class="navbar">
-		<ul>
-			<li><a href="#Info" id="boton1">Info</a></li>
-			<li><a href="#Servicios" id="boton2">Servicios</a></li>
-			<li><a href="#Proyectos" id="boton3">Proyectos</a></li>
-			<li><a href="#Contacto" id="boton4">Contacto</a></li>
-		</ul>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="#Info" id="boton1">Info</a></li>
+				<li><a href="#Servicios" id="boton2">Servicios</a></li>
+				<li><a href="#Proyectos" id="boton3">Proyectos</a></li>
+				<li><a href="#Contacto" id="boton4">Contacto</a></li>
+			</ul>
+		</div>
 	</nav>
-	<div class="container">
+
+	<header class="container-fluid">
+	<div class="row">
+		<h1 class="text-center">NADIA RIOS</h1>
+		<h2 class="text-center">diseñadora web</h2>
+		</div>
+	</header>
+		
 	<section id="Info">
-			<br>	
-			<h2>Info</h2>
-			<article><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3>Info</h3>
+					<article><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+				</div>
+			</div>
+		</div>
 	</section>
-	<br>	
+		
 	<section id="Servicios">
-		<h2>Servicios</h2>
-		<article><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3>Servicios</h3>
+					<article><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+				</div>
+			</div>
+		</div>
 	</section>
-	<br>
+
 	<section id="Proyectos">
-		<h2>Proyectos</h2>
-			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
-			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
-			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
-			<img src="https://placeholdit.co//i/250x250" alt="placeholdit">
-			<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3>Proyectos</h3>
+					<article><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus quas voluptate molestias dolor ullam ipsum.<br>Delectus nihil, officiis vel a similique nostrum explicabo totam commodi, autem et, fuga! Aut!</p></article>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<img src="https://placeholdit.co//i/360x260" alt="placeholdit">
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<img src="https://placeholdit.co//i/360x260" alt="placeholdit">
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<img src="https://placeholdit.co//i/360x260" alt="placeholdit">
+				</div>	
+
+		</div>
 	</section>
-	<br>
-	<section id="Contacto">
-		<h2>Contacto</h2>
-		<form action="" method="post">
-			<fieldset>
-				<legend>Datos Personales</legend>
-				<label for="nombre">Nombre</label>
-				<input type="text" id="nombre">
-				<label for="apellido">Apellido</label>
-				<input type="text" id="apellido">
-				<label for="email">E-mail</label>
-				<input type="text" id="email">
-				<br>
-				<br>
-				<legend>¿Qué información querés recibir?</legend>
-				<label for="cotizacion">Cotización</label>
-				<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">
-				<label for="promociones">Promociones</label>
-				<input type="checkbox" name="promociones" id="promociones" value="promociones">
-				<label for="novedades">Novedades</label>
-				<input type="checkbox" name="novedades" id="novedades" value="novedades">
-				<br>
-				<br>
-				<legend>¿Cómo conociste esta página?</legend>
-				<label for="google">Google</label>
-				<input type="radio" name="how" value="google">
-				<label for="facebook">Facebook</label>
-				<input type="radio" name="how" value="facebook">
-				<label for="otros">Otros</label>
-				<input type="radio" name="how" value="otros">
-				<br>
-				<br>
-				<legend>Comentarios Adicionales</legend>
-				<textarea name="comentarios" id="comentarios" cols="100" rows="10" placeholder="Dejá tu comentario aquí"></textarea><br>
-				<input type="button" value="Enviar">
-			</fieldset>
-		</form>
-	</section>
-	<br>
-	<hr>
-	<footer>
-			<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-			<i class="fa fa-github fa-2x" aria-hidden="true"></i>
-	<br>
-	<hr>
-	</footer>
+		
+		<br>
+		<section id="Contacto">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3>Contacto</h3>
+						<form action="" method="post">
+							<fieldset>
+								<legend>Datos Personales</legend>
+								<label for="nombre">Nombre</label>
+								<input type="text" id="nombre">
+								<label for="apellido">Apellido</label>
+								<input type="text" id="apellido">
+								<label for="email">E-mail</label>
+								<input type="text" id="email">
+								<br>
+								<br>
+								<legend>¿Qué información querés recibir?</legend>
+								<label for="cotizacion">Cotización</label>
+								<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">
+								<label for="promociones">Promociones</label>
+								<input type="checkbox" name="promociones" id="promociones" value="promociones">
+								<label for="novedades">Novedades</label>
+								<input type="checkbox" name="novedades" id="novedades" value="novedades">
+								<br>
+								<br>
+								<legend>¿Cómo conociste esta página?</legend>
+								<label for="google">Google</label>
+								<input type="radio" name="how" value="google">
+								<label for="facebook">Facebook</label>
+								<input type="radio" name="how" value="facebook">
+								<label for="otros">Otros</label>
+								<input type="radio" name="how" value="otros">
+								<br>
+								<br>
+								<legend>Comentarios Adicionales</legend>
+								<textarea name="comentarios" id="comentarios" cols="100" rows="10" placeholder="Dejá tu comentario aquí"></textarea><br>
+								<input type="button" value="Enviar">
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+				<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+				<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+				<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+		</footer>
 	</div>
 </body>
 </html>
